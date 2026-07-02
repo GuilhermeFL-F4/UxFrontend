@@ -1,0 +1,23 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.container { max-width: 1000px; margin: auto; }
+h1, h2 { color: #ffffff; }
+.dashboard { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; }
+.panel { background: #1e1e1e; padding: 20px; border-radius: 8px; border: 1px solid #333; }
+form { display: flex; flex-direction: column; gap: 10px; }
+input, select { background: #2a2a2a; border: 1px solid #444; color: white; padding: 10px; border-radius: 4px; }
+button { padding: 10px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; background: #4caf50; color: white;}
+button:hover { background: #45a049; }
+.card { background: #2a2a2a; margin-top: 15px; padding: 15px; border-radius: 6px; border-left: 4px solid #666;}
+.btn-motorista { background: #2196f3; width: 100%; margin-top: 10px; }
+.btn-adm { background: #ff9800; width: 100%; margin-top: 10px; }
+.adm-action { display: flex; gap: 10px; margin-top: 10px; }
+.badge { padding: 3px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold; }
+.badge.agendado { background: #555; }
+.badge.coletado { background: #1976d2; }
+.badge.finalizado { background: #388e3c; }
